@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">A landscape in Ogun State</title>
+  <desc id="desc">Soft green hills, tropical trees, and a red-earth path under a golden sky.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#f8dca8"/>
+      <stop offset="1" stop-color="#f7ead1"/>
+    </linearGradient>
+    <linearGradient id="earth" x2="0" y2="1">
+      <stop stop-color="#bd704d"/>
+      <stop offset="1" stop-color="#98553f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="420" fill="url(#sky)"/>
+  <circle cx="744" cy="93" r="44" fill="#eaa95b"/>
+  <path d="M0 224c133-76 242-66 353-12 130-83 235-84 357-7 99-63 177-68 250-26v140H0z" fill="#9bb690"/>
+  <path d="M0 261c126-68 258-66 391 2 109-68 231-76 342-4 86-44 157-44 227-15v176H0z" fill="#64866b"/>
+  <path d="M0 299c127-58 242-36 343 16 127-47 242-31 352 21 104-55 190-56 265-15v119H0z" fill="#466f59"/>
+  <path d="M421 420c37-64 75-91 74-145-1-30-19-58-44-84 60 15 113 48 124 90 14 53-27 90-57 139z" fill="url(#earth)"/>
+  <path d="M451 420c35-56 71-91 71-145 0-22-9-44-24-66 43 23 73 48 79 78 9 42-29 89-58 133z" fill="#d58a60" opacity=".65"/>
+  <g fill="#285841">
+    <path d="M109 279h13v112h-13zM69 285c8-24 22-38 47-42-9 24-24 38-47 42zm23-21c-3-24 5-43 25-59 8 24 1 43-25 59zm26 1c11-22 28-33 53-34-12 23-29 35-53 34z"/>
+    <path d="M821 270h12v121h-12zM778 274c9-24 25-37 49-41-10 24-26 37-49 41zm25-21c-3-24 5-43 26-59 7 24-1 43-26 59zm27 3c11-22 29-34 53-34-11 24-28 35-53 34z"/>
+    <path d="M265 303h9v83h-9zM238 305c6-17 17-28 35-31-7 18-18 28-35 31zm18-16c-2-17 4-31 18-43 6 17 1 31-18 43zm19 1c8-16 20-24 37-25-8 17-20 25-37 25z"/>
+    <path d="M692 305h9v83h-9zM665 307c6-17 17-28 35-31-7 18-18 28-35 31zm18-16c-2-17 4-31 18-43 6 17 1 31-18 43zm19 1c8-16 20-24 37-25-8 17-20 25-37 25z"/>
+  </g>
+  <path d="M0 389h960v31H0z" fill="#315744"/>
+  <path d="M32 402h86m52 0h104m455 0h87m49 0h49" stroke="#799277" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+</svg>

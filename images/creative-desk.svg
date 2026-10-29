@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">A creative desk</title>
+  <desc id="desc">An open notebook and pen beside a leafy plant in a sunlit room.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1">
+      <stop stop-color="#dcebe1"/>
+      <stop offset="1" stop-color="#f3e8d4"/>
+    </linearGradient>
+    <linearGradient id="desk" x2="0" y2="1">
+      <stop stop-color="#bc8056"/>
+      <stop offset="1" stop-color="#94603f"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="420" fill="url(#wall)"/>
+  <circle cx="756" cy="90" r="52" fill="#f3c878" opacity=".8"/>
+  <path d="M0 302h960v118H0z" fill="url(#desk)"/>
+  <path d="M0 309h960" stroke="#d19a6f" stroke-width="8" opacity=".6"/>
+  <path d="M112 278h150v28H112z" fill="#d6b898"/>
+  <path d="M126 270c-17-40-18-94 1-140 15 38 20 85 12 140m26 0c-3-47 13-88 47-120 1 43-12 83-34 120m-56 1c-27-35-39-75-36-120 30 31 48 69 51 115" fill="none" stroke="#3b7657" stroke-width="13" stroke-linecap="round"/>
+  <path d="M143 218c-33-4-55-22-68-51 31 6 53 24 68 51m16-39c-2-29 10-53 34-71 2 28-9 52-34 71m-20 66c-5-32 2-59 24-81 9 29 1 56-24 81" fill="#5a9470"/>
+  <path d="M116 275h144l-14 40H130z" fill="#bf7352"/>
+  <path d="M132 305h113l-10 78h-91z" fill="#d88b63"/>
+  <path d="M139 325h98m-93 17h87m-83 17h79" stroke="#e8aa7e" stroke-width="5" opacity=".7"/>
+  <g transform="rotate(-7 525 310)">
+    <rect x="352" y="188" width="330" height="188" rx="8" fill="#d0b38e"/>
+    <rect x="363" y="178" width="150" height="188" rx="6" fill="#fffdf7"/>
+    <rect x="515" y="178" width="155" height="188" rx="6" fill="#f9f5e9"/>
+    <path d="M514 184v172" stroke="#ddcfb7" stroke-width="3"/>
+    <path d="M387 221h92m-92 24h82m-82 24h87m-87 24h65m94-72h85m-85 24h74m-74 24h83m-83 24h60" stroke="#bed0c4" stroke-width="4" stroke-linecap="round"/>
+    <path d="m604 203 13-16 9 7-13 17-28 34-10 5 1-11z" fill="#245c4b"/>
+    <path d="m556 261 23-8-1 11-18 17-10 2z" fill="#e2a95d"/>
+  </g>
+  <path d="M704 300h118v14H704z" fill="#675a4b"/>
+  <path d="M720 314h86l-10 69h-66z" fill="#85715c"/>
+  <path d="M737 330h50m-47 16h43m-40 16h37" stroke="#b19a7f" stroke-width="4" opacity=".75"/>
+</svg>
