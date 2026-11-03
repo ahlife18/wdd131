@@ -1,0 +1,45 @@
+@media (min-width: 700px) {
+  .header-inner {
+    min-height: 78px;
+    flex-wrap: nowrap;
+    gap: 2rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .primary-nav,
+  .js .primary-nav {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.25rem;
+  }
+
+  .primary-nav a {
+    padding: 0.65rem 0.8rem;
+  }
+
+  main {
+    padding-top: 3.5rem;
+  }
+
+  .intro {
+    margin-bottom: 2.5rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.35rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+}
