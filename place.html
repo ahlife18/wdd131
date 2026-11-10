@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Discover Ogun State, Nigeria, through its river landscapes, local facts, and warm tropical weather."
+		/>
+		<meta name="author" content="Emmanuel Kolawole" />
+		<title>Ogun State, Nigeria | Place Study</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="images/weather-partly-cloudy.svg" type="image/svg+xml" />
+		<link rel="stylesheet" href="styles/place.css" />
+		<script src="scripts/place.js" defer></script>
+	</head>
+	<body>
+		<header class="site-header">
+			<a class="site-mark" href="index.html">WDD 131 <span>/</span> PLACE STUDY</a>
+			<p class="region-label">Southwestern Nigeria</p>
+		</header>
+
+		<main>
+			<section class="place-heading" aria-labelledby="page-title">
+				<p class="eyebrow">A place to call home</p>
+				<h1 id="page-title">Ogun <span>State</span></h1>
+			</section>
+
+			<section class="place-hero" aria-label="Ogun State overview">
+				<picture class="hero-image">
+					<source
+						media="(max-width: 700px)"
+						srcset="images/ogun-river-small.webp"
+						type="image/webp"
+					/>
+					<img
+						src="images/ogun-river-large.webp"
+						srcset="images/ogun-river-small.webp 480w, images/ogun-river-large.webp 612w"
+						sizes="100vw"
+						alt="A river winds through the green, rocky landscape of Ogun State."
+						width="612"
+						height="478"
+						fetchpriority="high"
+					/>
+				</picture>
+
+				<section class="info-panel data-panel" aria-labelledby="data-heading">
+					<h2 id="data-heading">Data</h2>
+					<dl class="fact-list">
+						<div><dt>Country</dt><dd>Nigeria</dd></div>
+						<div><dt>Capital</dt><dd>Abeokuta</dd></div>
+						<div><dt>Region</dt><dd>Southwest</dd></div>
+						<div><dt>Language</dt><dd>English, Yoruba</dd></div>
+						<div><dt>Currency</dt><dd>Nigerian naira</dd></div>
+						<div><dt>Area</dt><dd>16,762 km<sup>2</sup></dd></div>
+					</dl>
+				</section>
+
+				<section class="info-panel weather-panel" aria-labelledby="weather-heading">
+					<div class="weather-title">
+						<img
+							class="weather-icon"
+							src="images/weather-partly-cloudy.svg"
+							alt=""
+							width="44"
+							height="44"
+						/>
+						<h2 id="weather-heading">Weather</h2>
+					</div>
+					<p class="conditions">Warm with passing clouds</p>
+					<dl class="weather-list">
+						<div><dt>Temperature</dt><dd><span id="temperature">28</span> &deg;C</dd></div>
+						<div><dt>Wind speed</dt><dd><span id="wind-speed">12</span> km/h</dd></div>
+						<div><dt>Wind chill</dt><dd id="wind-chill">N/A</dd></div>
+					</dl>
+				</section>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<p>&copy; <span id="currentyear"></span> Emmanuel Kolawole <span aria-hidden="true">|</span> Ogun, Nigeria</p>
+			<p>Last modified: <span id="lastModified"></span></p>
+		</footer>
+	</body>
+</html>
