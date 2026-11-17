@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
@@ -17,7 +17,6 @@ s<!DOCTYPE html>
     />
     <link rel="stylesheet" href="styles/filtered-temples.css" />
     <link rel="stylesheet" href="styles/filtered-temples-large.css" />
-    <script src="scripts/filtered-temples.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -34,11 +33,11 @@ s<!DOCTYPE html>
           <span aria-hidden="true">☰</span>
         </button>
         <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
-          <button type="button" data-filter="home" aria-pressed="true">Home</button>
-          <button type="button" data-filter="old" aria-pressed="false">Old</button>
-          <button type="button" data-filter="new" aria-pressed="false">New</button>
-          <button type="button" data-filter="large" aria-pressed="false">Large</button>
-          <button type="button" data-filter="small" aria-pressed="false">Small</button>
+          <a href="#gallery" data-filter="home" aria-current="page">Home</a>
+          <a href="#gallery" data-filter="old">Old</a>
+          <a href="#gallery" data-filter="new">New</a>
+          <a href="#gallery" data-filter="large">Large</a>
+          <a href="#gallery" data-filter="small">Small</a>
         </nav>
       </div>
     </header>
@@ -63,5 +62,6 @@ s<!DOCTYPE html>
       </p>
       <p id="lastModified"></p>
     </footer>
+    <script src="scripts/filtered-temples.js"></script>
   </body>
 </html>

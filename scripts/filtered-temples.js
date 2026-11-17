@@ -147,8 +147,12 @@ function displayTemples(filter = "home") {
     filteredTemples.length === 1 ? "temple" : "temples"
   }`;
 
-  primaryNavigation.querySelectorAll("[data-filter]").forEach((button) => {
-    button.setAttribute("aria-pressed", String(button.dataset.filter === filter));
+  primaryNavigation.querySelectorAll("[data-filter]").forEach((link) => {
+    if (link.dataset.filter === filter) {
+      link.setAttribute("aria-current", "page");
+    } else {
+      link.removeAttribute("aria-current");
+    }
   });
 }
 
@@ -167,9 +171,10 @@ menuToggle.addEventListener("click", () => {
 });
 
 primaryNavigation.addEventListener("click", (event) => {
-  const filterButton = event.target.closest("[data-filter]");
-  if (filterButton) {
-    displayTemples(filterButton.dataset.filter);
+  const filterLink = event.target.closest("[data-filter]");
+  if (filterLink) {
+    event.preventDefault();
+    displayTemples(filterLink.dataset.filter);
     setMenuOpen(false);
   }
 });
