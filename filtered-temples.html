@@ -1,0 +1,67 @@
+s<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore temples around the world and filter them by age and size."
+    />
+    <meta name="author" content="Emmanuel Kolawole" />
+    <title>Filtered Temple Album | Emmanuel Kolawole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" />
+    <script src="scripts/filtered-temples.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="filtered-temples.html" data-filter="home">Temple Album</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          hidden
+        >
+          <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+          <button type="button" data-filter="home" aria-pressed="true">Home</button>
+          <button type="button" data-filter="old" aria-pressed="false">Old</button>
+          <button type="button" data-filter="new" aria-pressed="false">New</button>
+          <button type="button" data-filter="large" aria-pressed="false">Large</button>
+          <button type="button" data-filter="small" aria-pressed="false">Small</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Sacred spaces around the world</p>
+        <h1 id="page-title">Temples</h1>
+        <p class="intro-copy">
+          Explore temples by dedication year and floor area.
+        </p>
+      </section>
+
+      <p id="results-status" class="results-status" aria-live="polite"></p>
+      <section id="gallery" class="gallery" aria-label="Temple collection"></section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        &copy; <span id="currentyear"></span> Emmanuel Kolawole
+        <span class="footer-divider">|</span> Ogun, Nigeria
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
